@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitOverride": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "strict": true,
+
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+
+    "incremental": true,
+    "pretty": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "target": "es2021",
+    "baseUrl": ".",
+    "module": "commonjs",
+    "declaration": true,
+    "declarationMap": true,
+    "paths": {
+      "@custom-types/*": ["src/custom-types/*"],
+      "@custom-decorators/*": ["src/custom-decorators/*"],
+      "@dtos/*": ["src/dtos/*"],
+      "@utils/*": ["src/utils/*"],
+      "@validations/*": ["src/validations/*"]
+    }
+  },
+  "include": ["./src/**/*", "./test/**/*"]
+}

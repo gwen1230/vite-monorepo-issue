@@ -1,0 +1,15 @@
+{
+  "name": "lib-dto",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc --project tsconfig.build.json"
+  },
+  "devDependencies": {
+    "typescript": "5.3.3"
+  },
+  "peerDependencies": {
+    "validator": "13.11.0"
+  }
+}
